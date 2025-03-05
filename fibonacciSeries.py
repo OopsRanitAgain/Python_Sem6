@@ -15,6 +15,7 @@ print("Iterative Approach")
 
 a,b=0,1
 
+print(a)
 for i in range(n):
     a,b= b,a+b
-    print(b,end='')
+    print(a)
